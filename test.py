@@ -46,6 +46,10 @@ def showBarPlots(labels, ratings, ylabel, title):
     plt.ylabel(ylabel)
     plt.title(title)
     plt.show()
+"""
+main
+
+"""
 #connect database
 conn = psycopg2.connect(database="testdb", user="postgres", password="er6319", 
                         host="127.0.0.1", port="5432")
@@ -53,6 +57,7 @@ conn = psycopg2.connect(database="testdb", user="postgres", password="er6319",
 print("Opened database successfully")
 
 cur = conn.cursor()
+
 total = show()
 print("查詢結果:", total, "筆資料")
 print("")
