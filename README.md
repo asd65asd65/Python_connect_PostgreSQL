@@ -6,7 +6,9 @@
 <h2>說明:</h2>
 使用 psycopg2 套件</br>
 import psycopg2</br>
+
 與資料庫建立連線</br>
 conn = psycopg2.connect(database="testdb", user="postgres", password="pass123", host="127.0.0.1", port="5432")</br>
+
 向資料庫輸入指令</br>
 cur.execute( "Query 指令" )</br>
