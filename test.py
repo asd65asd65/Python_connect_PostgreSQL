@@ -19,12 +19,12 @@ cur.execute("select * " +
             "from prevent_disease " +
             "order by id ")
 
-column = ["Id", "Name", "Temperature", "Getmask"]
+column = ["Id", "Name", "Temperature", "Getmask", "Date"]
 #data
 rows = cur.fetchall()
 #data output
 for row in rows:
-    for i in range(4):
+    for i in range(5):
         print(column[i], "=", row[i])
     print("")
 print("查詢結果:", cur.rowcount, "筆資料")
