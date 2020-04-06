@@ -63,14 +63,14 @@ print("查詢結果:", total, "筆資料")
 print("")
 
 fever = showFever()
-print("體溫過高人數:", fever)
+print("正常|發燒 人數:", total-fever, "|", fever)
 labels = ["Normal", "Fever"]
 ratings = [total-fever, fever]
 showBarPlots(labels, ratings, "Temperature", "Temperature Statistics")
 print("")
 
 noMask = showNotGetMask()
-print("未領取口罩人數:", noMask)
+print("已領取|未領取 口罩人數:", total-noMask, "|", noMask)
 labels = ["Get", "Not Get"]
 ratings = [total-noMask, noMask]
 showBarPlots(labels, ratings, "People", "GetMask Statistics")
