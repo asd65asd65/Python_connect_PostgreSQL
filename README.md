@@ -3,7 +3,7 @@
 
 <h2>開發環境:</h2>
 套件管理器: anaconda3</br>
-程式語言: python 3.73</br>
+程式語言: python 3.7.3</br>
 <h4>需要的套件: </h4>
 <ul>
 <li>psycopg2</li>
