@@ -15,7 +15,7 @@
 </ul>
 
 <h2>說明:</h2>
-<div style="background-color: rgb(238, 238, 238);">
+<div>
   import psycopg2</br></br>
   #與資料庫建立連線</br>
   conn = psycopg2.connect(database="testdb", user="postgres", password="pass123", host="127.0.0.1", port="5432")</br></br>
