@@ -1,5 +1,5 @@
 # Python_connect_PostgreSQL
-健康管理資料庫
+利用 python 與 PostgreSQL 資料庫互動
 
 <h2>開發環境:</h2>
 套件管理器: anaconda3</br>
