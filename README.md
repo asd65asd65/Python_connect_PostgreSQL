@@ -15,6 +15,9 @@ IDE: spyder 4.1.1</br>
 <li>PostgreSQL 12.2</li>
 </ul>
 
+<h2>資料庫管理:</h2>
+利用 pgAdmin 4 管理資料庫</br>
+
 <h2>連接到資料庫:</h2>
 <div>
   import psycopg2</br></br>
