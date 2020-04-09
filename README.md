@@ -14,7 +14,7 @@
 <li>PostgreSQL</li>
 </ul>
 
-<h2>說明:</h2>
+<h2>連接到資料庫:</h2>
 <div>
   import psycopg2</br></br>
   #與資料庫建立連線</br>
