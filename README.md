@@ -17,7 +17,7 @@ IDE: spyder 4.1.1</br>
 
 <h2>資料庫管理:</h2>
 利用 pgAdmin 4 管理資料庫</br>
-
+你可以用 "create table.sql" 建立一個 table 範例
 <h2>連接到資料庫:</h2>
 <div>
   import psycopg2</br></br>
