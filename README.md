@@ -6,8 +6,12 @@
 程式語言: python 3.73</br>
 <h4>需要的套件: </h4>
 <ul>
-<li>PostgreSQL</li>
 <li>psycopg2</li>
+</ul>
+
+<h4>需要的軟體: </h4>
+<ul>
+<li>PostgreSQL</li>
 </ul>
 
 <h2>說明:</h2>
