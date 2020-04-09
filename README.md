@@ -1,12 +1,16 @@
 # Python_connect_PostgreSQL
 健康管理資料庫
-<h2>需要:</h2>
+
+<h2>開發環境:</h2>
+套件管理器: anaconda3</br>
+程式語言: python 3.73</br>
+<h4>需要的套件: </h4>
 <ul>
-<li>安裝 PostgreSQL</li>
-<li>安裝 psycopg2 套件</li>
+<li>PostgreSQL</li>
+<li>psycopg2</li>
 </ul>
+
 <h2>說明:</h2>
-使用 psycopg2 套件</br>
 import psycopg2</br></br>
 與資料庫建立連線</br>
 conn = psycopg2.connect(database="testdb", user="postgres", password="pass123", host="127.0.0.1", port="5432")</br></br>
