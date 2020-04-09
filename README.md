@@ -11,7 +11,7 @@
 
 <h4>需要的軟體: </h4>
 <ul>
-<li>PostgreSQL</li>
+<li>PostgreSQL 12.2</li>
 </ul>
 
 <h2>連接到資料庫:</h2>
